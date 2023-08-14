@@ -1,55 +1,217 @@
-body {
 
-
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(90deg, #1E13A0 0%, #00D3FF 72.40%);
-
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&family=Inter:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');    
+body{
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(90deg, #1E13A0 0%, #00D3FF 72.40%);
+    
 }
-
+    
 div { 
     border: none;
-    background-color: aqua;
-    position: relative;
-    right: 10px;
-    
+    max-width: auto;
 
 }
 
 #container {
     display: grid;
     grid-template-areas: 
-    'home menu1 profile login';
-    width: 1423px;
-    height: 133px;
+    'nav nav nav nav nav nav'
+    'home menu1 profile login strip strip';
+    width: 100%;
+    
+
+}
+
+.container img{
+    max-width: auto;
+    width: 300px;
+    
+}
+
+
+
+.nav {
+    grid-area: nav;
+    background: linear-gradient(270deg, rgba(255, 255, 255, 0.23) 0%, rgba(255, 255, 255, 0.00) 54.17%);
+    height: 80px;
+    position: relative;
+    bottom: 10px;
+    position: relative;
+    left: 7px;
+    max-width: 100%;
+    display: flex;
+    
 
 
 
 }
-
 
 
 .home {
     grid-area: home;
     position: relative;
+    bottom: 65px;
+    position: relative;
     left: 20px;
+    position: relative;
+    font-family: 'Fredoka', sans-serif;
 
+
+    
+    
+    
 }
 
 .menu1 {
     grid-area: menu1;
     position: relative;
-    left: 500px;
-    
+    bottom: 73px;
+    position: relative;
+    left: 450px;
+    display: flex;
+    font-family: 'Fredoka', sans-serif;
+
+
 }
 
 .profile {
     grid-area: profile;
     position: relative;
-    left: 200px;
+    bottom: 73px;
+    position: relative;
+    left: 330px;
+    display: flex;
+    font-family: 'Fredoka', sans-serif;
+    
+
+
 }
 
 .login {
     grid-area: login;
     position: relative;
-    left: 120px;
+    bottom: 67px;
+    position: relative;
+    left: 430px;
+    display: flex;
+    font-family: 'Fredoka', sans-serif;
 
+
+}
+
+.strip{
+    grid-area: strip;
+    position: relative;
+    bottom: 73px;
+    right: 180px;
+    color: white;
+    font-size: 40px;
+    font-family: 'Fredoka', sans-serif;
+
+    
+
+
+  
+}
+
+.home button{
+    color: white;
+    background:rgba(0, 204, 255, 0.44);
+    width: 80px;
+    border: none;
+    border-radius: 50px;
+    font-size: 20px;
+    font-family: 'Fredoka', sans-serif;
+    transition: all 5s ease;
+    cursor: pointer;
+ 
+
+}
+
+.login button{
+    color: white;
+    border-radius: 8px;
+    border: 3px solid #0FF;
+    background: rgba(243, 207, 207, 0.00);
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    font-family: 'Fredoka', sans-serif;
+    transition: all 5s ease;
+    cursor: pointer;
+
+
+    
+}
+
+.menu1 button{
+
+    color: #F5F5F5;
+    text-align: center;
+    background: rgba(243, 207, 207, 0.00);
+    border: none;
+    font-size: 25px;
+    font-family: 'Fredoka', sans-serif;
+    transition: all 5s ease;
+    cursor: pointer;
+}
+
+.profile button{
+
+    color: #F5F5F5;
+    text-align: center;
+    background: rgba(243, 207, 207, 0.00);
+    border: none;
+    font-size: 25px;
+    font-family: 'Fredoka', sans-serif;
+    transition: all 5s ease;
+    cursor: pointer;
+
+}
+
+#container2{
+    display: flexbox;
+    grid-template-areas:'image text' ;
+    width: 500px;
+    text-align: left;
+    margin: auto;
+    max-width: auto;
+    background-color:none;
+    width: 1250px;
+    position: relative;
+    bottom: 50px;
+    display: flex;
+
+}
+
+.image img{
+
+    width: 400px;
+    size-adjust: 100px;
+    position: relative;
+    left: 800px;
+    top: 30px;
+    max-width: 100%;
+    display: flex;
+
+}
+
+.text h1{
+    position: relative;
+    top: 70px;
+    right: 390px;
+    display: flex;
+    font-size: 50px;
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+
+.text2 h1{
+    position: relative;
+    right: 567px;
+    top: 110px;
+    font-size: 50px;
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    color: white;
 }
