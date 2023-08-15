@@ -1,0 +1,97 @@
+div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    background-color: #cae8ca;
+    border: none solid #4CAF50;
+    display: inline;
+  }
+
+  #parent1 {
+    position: static;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    background-color: #cae8ca;
+    border: none solid #4CAF50;
+    display: inline;
+  }
+  
+  #child1 {
+    position: absolute;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    background-color: #cae8ca;
+    border: none solid #4CAF50;
+    display: inline;
+  }
+  
+  #parent2 {
+    position: relative;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    background-color: #cae8ca;
+    border: none solid #4CAF50;
+    display: inline;
+  }
+  
+  #child2 {
+    position: absolute;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    background-color: #cae8ca;
+    border: none solid #4CAF50;
+    display: inline;
+  }
+  
+  #parent3 {
+    position: absolute;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    background-color: #cae8ca;
+    border: none solid #4CAF50;
+    display: inline;
+  }
+  
+  #child3 {
+    position: absolute;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    background-color: #cae8ca;
+    border: none solid #4CAF50;
+    display: inline;
+  }
+  
+  #parent4 {
+    position: fixed;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    background-color: #cae8ca;
+    border: none solid #4CAF50;
+    display: inline;
+  }
+  
+  #child4 {
+    position: absolute;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    background-color: #cae8ca;
+    border: none solid #4CAF50;
+    display: inline;
+  }
