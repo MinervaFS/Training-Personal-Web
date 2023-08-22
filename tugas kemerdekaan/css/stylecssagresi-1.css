@@ -79,8 +79,18 @@ body{
     border-bottom-right-radius: 50px;
     border-top-left-radius: 50px;
     background-color: red;
+    filter: grayscale(100%);
+
 
    }
+
+
+.container img:hover{
+
+    color: rgba(0, 97, 167, 0.607);
+    filter: brightness(100%);
+
+}
 
 
 
@@ -115,6 +125,34 @@ body{
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+
+}
+
+.button {
+
+    border-radius: 27px;
+    background: linear-gradient(90deg, #FFF 0%, #E72525 100%);
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    top: 389px;
+    right: 100;
+    text-align: center;
+    width: 244px;
+    height: 47px;
+    position: fixed;
+    border: none;
+    text-decoration: none;
+    font-style: italic;
+    font-family: 'Inter', sans-serif;
+    font-size: 30;
+    color: white;    
+
+}
+
+@media all and (min-width: 0px) and (max-width: 920px) {
+
+
 
 }
 

@@ -87,6 +87,7 @@ body{
 }
 
 .isi-konten a{
+    
     border-radius: 27px;
     background: linear-gradient(90deg, #FFF 0%, #E72525 100%);
     display: flex;
@@ -107,6 +108,17 @@ body{
     
 
 }
+
+
+.isi-konten a:hover{
+
+
+    color: red;
+
+
+
+}
+
 
 
 

@@ -39,6 +39,7 @@ body{
 }
 
 .header img{
+
     width: 153px;
     height: 87px;
     position: fixed;
@@ -67,8 +68,15 @@ body{
         justify-content: center;
         align-items: center;
         text-align: center;
-        
-    
+
+}
+
+.navbar a:hover{
+
+    color: red;
+    cursor: pointer;
+    transition-duration: none;
+
 
 }
 
@@ -191,5 +199,23 @@ body{
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+
+}
+
+.container{
+
+    display: flex;
+    position: fixed;
+    top: 166px ;
+    right:250px;
+    justify-content: center;
+    align-items: center;
+    width: 835;
+    height: 333px;
+    background: url('../images/indonesia.png');
+    background-size: cover;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.473);
+    border-radius: 33px;
+    background-color: red;
 
 }
