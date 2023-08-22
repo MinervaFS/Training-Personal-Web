@@ -87,10 +87,10 @@ body{
 .deskripsi{
 
     display: flex;
-    justify-content: space-between;
+    justify-content: right;
     position: fixed;
-    text-align: center;
-    top: 239px;
+    text-align: inherit;
+    top: 261px;
     right: 12;
     font-size: 20;
     width: 834px;
