@@ -89,11 +89,39 @@
     left: 0;
     width: 450px;
     height: 100%;
-    background: wheat;
+    background: rgb(255, 166, 0);
     z-index: 100;
+    display: flex;
+    align-items: center;
+    
+}
+
+.pembungkus .logreg-kotak{
+
+    width: 100%;
+    background: red;
 
 }
 
+.pembungkus  .logreg-judul{
 
+    text-align: center;
+    margin-bottom: 40px;
+    color: white;
+
+}
+
+.pembungkus  .logreg-judul  h2{
+
+    font-size: 32;
+
+}
+
+.form-box input{
+
+    width: 100%;
+    background: transparent;
+
+}
 
 
