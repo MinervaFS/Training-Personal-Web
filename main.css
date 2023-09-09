@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+body li {
+  display: inline-block;
+}
+
+.header ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.header ul li {
+  display: inline-block;
+}
+.header ul li {
+  background-color: red;
+  padding: 0.7rem;
+}
+.header ul li a {
+  color: white;
+}
+
+.footer ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.footer ul li {
+  display: inline-block;
+}
+.footer ul li {
+  padding: 0.7rem;
+  background-color: blue;
+}
+.footer ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+  width: 100%;
+  height: 100%;
+  background-color: wheat;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.container li {
+  display: inline-block;
+}
+.container .box {
+  width: 60px;
+  height: 60px;
+  background-color: red;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.container .img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 10px;
+  height: 10px;
+}/*# sourceMappingURL=main.css.map */
