@@ -1,0 +1,139 @@
+
+<html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Halaman Login</title>
+
+        <link rel="stylesheet" href="css/stylelogin.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <script src="forminput.js"></script>
+        <script src="js/input-form.js"></script>
+
+    </head>
+<body>
+    
+    <header class="header">
+        <a href="#" class="logo">logo</a>
+
+        <nav class="navbar">
+            <a href="#">Home</a>
+            <button class="button-login">login</button>
+        </nav>
+    </header>
+
+    <section class="section">
+        <div class="pembungkus">
+            <div class="logreg-kotak">
+                <div class="form-box login">
+                    <div class="logreg-judul">
+
+                     <h2>Login</h2>
+                     <p>Login Terlebih Dahulu Untuk Mempelajari Sejarah</p>
+        
+            </div>
+
+            <form action="#">
+              <div class="kotak-input">
+                <span class="icon"><i class='bx bxs-lock-alt'></i></span>
+                <input type="text" name="username" id="username" required>
+                <label for="username">Username</label>
+              </div>
+
+              <div class="kotak-input">
+                <span class="icon"><i class='bx bxs-lock-alt'></i></span>
+                <input type="password" name="password" id="password" required>
+                <label for="password">Password</label>
+              </div>
+
+              <div class="kotak-cek">
+                <label><input type="checkbox">Ingat Password
+                </label>
+                <a href="#">Lupa Password?</a>
+                </div>
+
+                <form action=""><a class="href-login" href="Logout-card.html"><button onclick="cekform()" type="submit" class="btn">Login</a></button></form>
+              
+
+              <div class="logreg-link">
+                <p>Masih Belum Punya Akun?<a href="sign.html" class="daftar"> Daftar                
+                </a></p>
+
+
+                </div>
+
+
+              </div>
+
+
+            </form>
+          
+
+          <div class="media-option">
+             <a href="#">
+              <i class='bx bxl-google'></i>
+              <span>Login dengan Google</span>
+             </a>
+
+             <a href="#">
+              <i class='bx bxl-facebook-circle' ></i>
+              <span>Login dengan Facebook</span>
+             </a>
+          </div>
+    </section>
+
+
+
+</body>
+</html>
+
+<script>
+
+      let username = "Muhamad Saepul Fajari";
+      let password = "123qweassd"
+
+      function cekform(){
+        let username = document.getElementById("username").value;
+        let password = document.getElementById("password").value;
+
+        if(username == "Fajari" && password == "123qweasd"){
+            alert("Login Success");
+            window.location.href('')          
+
+        }
+        
+          else if(username == "" || password  == ""){
+              alert("Masukan Username Dan Password Terlebih Dahulu")
+        }
+            else {
+
+               alert("Username Dan Password Salah")
+
+        }
+      }
+
+
+      /*function Logout(){
+        let username = document.getElementById("username").value;
+        let password = document.getElementById("password").value;
+
+        if(username == "" && password == ""){
+          alert("Masukan Username Dan Password Kembali")
+            window.location.href('')          
+
+        } else {
+
+               alert("Username Dan Password Salah")
+
+        }
+      }*/
+
+    
+      
+
+
+</script>

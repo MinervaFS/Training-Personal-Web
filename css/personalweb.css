@@ -13,13 +13,13 @@
     scroll-behavior: smooth;
     font-family: 'Fredoka', sans-serif !important;
     font-family: 'Inter', sans-serif;
-
+    
     
 }
 
 :root {
 
-    --bg-color:linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(90deg, hsl(245, 79%, 35%) 0%, #00D3FF 72.40%);
+    --bg-color:linear-gradient(0deg, rgba(145, 55, 55, 0.2) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(90deg, hsl(245, 79%, 35%) 0%, #00D3FF 72.40%);
     --text-color: white;
     --nav-color: linear-gradient(270deg, rgba(255, 255, 255, 0.23) 0%, rgba(255, 255, 255, 0.00) 54.17%);
     --second-color:rgb(77, 243, 255);
@@ -30,13 +30,17 @@
 html {
 
     font-size: 62.5%;
-    overflow-x:hidden;
+    overflow-y:scroll;
+    scroll-behavior: smooth;
 
     
 }
 
 body {
 
+   /* background: url("../image/pixiv.jpg");
+    background-repeat: no-repeat;
+    background-size:contain;*/
     background: var(--bg-color);
     color: var(--text-color);
     overflow: hidden;
@@ -735,3 +739,72 @@ span {
 
 }
 
+.contact{
+
+    min-height: auto;
+    padding-bottom: 7rem;
+
+}
+
+.contact form{
+
+    max-width: 70rem;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.contact form .input-box{
+
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+
+}
+
+.contact form .input-box .input-field{
+
+    position: relative;
+    width: 49%;
+    margin: .8rem 0;
+}
+
+.contact form .input-box .input-field input,
+.contact form .textarea-field textarea{
+
+    width: 100%;
+    padding:  1.5rem;
+    font-size:  1.6rem;
+    color: var(--text-color);
+    background: transparent;
+    border-radius: .6rem;
+    border: .3rem solid var(--thir-color);
+}
+
+.contact form .input-box input::placeholder,
+.contact form .textarea-field textarea::placeholder {
+
+    color: var(--text-color);
+
+}
+
+.contact form .textarea-field {
+
+    position: relative;
+    margin: .8rem 0 2.7rem;
+    display: flex;
+}
+
+.contact form .textarea-field textarea{
+
+    resize: none;
+
+}
+
+.contact form .btn-box.btn-box.btns .btn{
+
+    cursor: pointer;
+
+}

@@ -1,0 +1,19 @@
+.nav-galery{
+
+    padding-top: 5rem;
+    
+
+}
+
+/*GALERY CARD CSS*/
+.card{
+
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.502);
+
+}
+
+.card-title{
+
+    position: absolute;
+
+}

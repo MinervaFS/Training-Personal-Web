@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&family=Inter:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Fredoka', sans-serif;
+
+}
+
+.header{
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background:transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+
+}
+
+.logo{
+
+    font-size: 32px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+
+}
+
+.navbar a{
+
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-right: 40px;
+
+}
+
+
+.navbar .button-login{
+
+    background: transparent;
+    border: none;
+    margin: none;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    font-weight: 500;
+
+}
+
+
+.navbar .button-login::before{
+
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 100px ;
+    height: 2px;
+    background: white;
+    opacity: .85;
+
+}
+
+.section{
+
+    min-height: 100vh;
+    background: url('../img/bg.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.pembungkus{
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 450px;
+    height: 100%;
+    background: transparent;
+    backdrop-filter: blur(15px);
+    box-shadow: -1px 0 10px black;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    
+}
+
+.pembungkus .logreg-kotak{
+
+    width: 100%;
+
+}
+
+.pembungkus  .logreg-judul{
+
+    text-align: center;
+    margin-bottom: 40px;
+    color: white;
+
+}
+
+.pembungkus  .logreg-judul  h2{
+
+    font-size: 32;
+
+}
+
+.logreg-kotak .kotak-input{
+
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+    border-bottom: 2px solid white;
+
+}
+
+.kotak-input input{
+
+    width: 100%;
+    height: 100%;
+    background:transparent;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
+    padding-right: 25px;
+
+
+}
+
+.kotak-input label{
+
+    position: absolute;
+    top: 50%;
+    left: 0;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    transform: translateY(-50%);
+    pointer-events: none;
+    transition: .5s;
+
+
+}
+
+.kotak-input input:focus~label,
+.kotak-input input:valid~label{
+
+    top: -5px;
+
+}
+
+
+.kotak-input .icon{
+    
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    font-size: 19px;
+    color: white;
+    
+
+}
+
+.logreg-kotak .kotak-cek{
+
+    color: white;
+    font-weight: 500;
+    margin: -15px 0 15px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.kotak-cek label input{
+
+    accent-color: white;
+    margin-right: 5px;
+
+}
+
+.kotak-cek a{
+
+    color: white;
+    text-decoration: none;
+
+}
+
+.kotak-cek a:hover{
+
+    text-decoration: underline;
+
+}
+
+.logreg-kotak .btn{
+
+    width: 100%;
+    height: 45px;
+    background: #0FF;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 2px 5px black;
+    cursor: pointer;
+    font-size: 20px;
+    color: #222 ;
+    font-weight: 600;
+
+}
+
+.href-login{
+    text-decoration: none;
+}
+
+.logreg-kotak .logreg-link{
+
+    font-size: 14.5px;
+    color: white;
+    text-align: center;
+    font-weight: 500;
+    margin: 25px 0 15px;
+
+}
+
+.logreg-link p a{
+
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+
+
+}
+
+.logreg-link p a:hover{
+
+    text-decoration: underline;
+
+}
+
+.media-option{
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.media-option a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: 2px solid white;
+    margin: 10px 0;
+    box-shadow: 0 2px 5px black;
+    text-decoration: none;
+    border-radius: 40px;
+    transition: .5s;
+
+}
+
+.media-option a:hover{
+    background: white;
+}
+
+.media-option a i{
+
+    font-size: 22px;
+    margin: 0 8 px 1.5px 0;
+    color: white;
+
+}
+
+.media-option a span{
+
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+
+}
+
